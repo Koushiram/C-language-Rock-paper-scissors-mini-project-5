@@ -12,22 +12,16 @@ main ()
  
 int playerChoice, computerChoice;
   
- 
-   // Seed the random number generator
-    srand (time (0));
+srand (time (0));
   
- 
- 
-  // Get player's choice
-    printf ("Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors): ");
+printf ("Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors): ");
   
  
 scanf ("%d", &playerChoice);
   
  
  
-  // Generate computer's choice
-    computerChoice = rand () % 3;
+   computerChoice = rand () % 3;
   
  
  
