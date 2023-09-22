@@ -10,13 +10,12 @@ main ()
 int playerChoice, computerChoice;
   
  
- 
-    // Seed the random number generator
+   // Seed the random number generator
     srand (time (0));
   
  
  
-    // Get player's choice
+  // Get player's choice
     printf ("Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors): ");
   
  
@@ -24,15 +23,15 @@ scanf ("%d", &playerChoice);
   
  
  
-    // Generate computer's choice
+  // Generate computer's choice
     computerChoice = rand () % 3;
   
  
  
-    // Determine the winner
+  // Determine the winner
     if (playerChoice == computerChoice)
     
-    {
+   {
       
  
 printf ("It's a tie!\n");
@@ -44,7 +43,7 @@ printf ("It's a tie!\n");
 	   (playerChoice == 1 && computerChoice == 0) || 
 	   (playerChoice == 2 && computerChoice == 1))
     
-    {
+   {
       
  
 printf ("You win!\n");
@@ -54,7 +53,7 @@ printf ("You win!\n");
   
   else
     
-    {
+   {
       
  
 printf ("Computer wins!\n");
